@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: 
+  picutre: 
+  description: 
+  keyword: MyString
+
+two:
+  name: 
+  picutre: 
+  description: 
+  keyword: MyString
