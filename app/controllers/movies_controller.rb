@@ -12,7 +12,8 @@ class MoviesController < ApplicationController
     render  json: @data
   end
   def show_favorite_list
-    @data =
-    render json:
+    
+    @data =User.find(current_user.id).favorite_lists
+    render json:@data
   end
 end
